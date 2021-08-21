@@ -20,21 +20,18 @@ print("Hello pandas")
 
 # region Import package as pandas does not ship along as native package
 # use pip install pandas if not installed yet, or follow setup guide
-# import matplotlib
 
-# matplotlib.use("TkAgg")
 import pandas as pd
-
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # endregion
 
-# dataframe = pd.read_csv("../datasets/Pokemon.csv")
-# print(dataframe.head())
-# print(dataframe.describe())
-# print(dataframe["Type 1"].value_counts())
-# dataframe["Type 1"].value_counts().plot(kind="barh")
-
+dataframe = pd.read_csv("../datasets/Pokemon.csv")
+print(dataframe.head())
+print(dataframe.describe())
+print(dataframe["Type 1"].value_counts())
+dataframe["Type 1"].value_counts().plot(kind="barh")
+plt.show()
 
 # region Introducing primitive Python data types
 integers = 2

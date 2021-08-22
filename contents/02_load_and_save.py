@@ -24,12 +24,12 @@ import matplotlib.pyplot as plt
 
 # endregion
 
-# dataframe = pd.read_csv("../datasets/Pokemon.csv")
-# print(dataframe.head())
-# print(dataframe.describe())
-# print(dataframe["Type 1"].value_counts())
-# dataframe["Type 1"].value_counts().plot(kind="barh")
-# plt.show()
+dataframe = pd.read_csv("../datasets/Pokemon.csv")
+print(dataframe.head())
+print(dataframe.describe())
+print(dataframe["Type 1"].value_counts())
+dataframe["Type 1"].value_counts().plot(kind="barh")
+plt.show()
 
 # region Importing data
 # pandas provide API calls to easily load almost any format
@@ -38,12 +38,10 @@ csv_df = pd.read_csv(
     "https://raw.githubusercontent.com/pandas-dev/pandas/master/doc/data/titanic.csv"
 )
 excel_df = pd.read_excel("../datasets/airline.xls")
-print(excel_df)
 json_df = pd.read_json(
     "../datasets/ct.json",
     lines=True,
 )
-print(json_df)
 
 # endregion
 

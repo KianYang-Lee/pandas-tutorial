@@ -102,3 +102,13 @@ dataframe.loc[min_attack_condition | min_defense_condition]
 dataframe.loc[0, "Name"] = "Rilakuma"
 
 # endregion
+
+# region Changing multiple values at once
+# mapping from one value to another for a Series
+dataframe.HP.map(lambda x: 0)
+
+# applying a transformation on a DataFrame
+# transform each column by passing "columns" or 1 argument to axis parameter
+dataframe.apply(lambda x: x * 2, axis="columns")
+
+# endregion

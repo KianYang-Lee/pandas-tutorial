@@ -17,13 +17,14 @@ exercises/  : contains Python scripts with instructions for participants to prac
 
 Class contents are structured in such a way that core functionalities of `pandas` are exposed to participants in a step-by-step and functional manner. Following contains  short description of subject covered for each scripts:
 
-- `01_intro.py`: Introduces `Series` and `DataFrame`, two core data structures of `pandas`
-- `02_load_and_save.py`: Importing and exporting files/datasets
-- `03_data_manipulation.py`: Indexing and slicing data, `loc` and `iloc` methods
-- `04_EDA.py`: General methods to perform exploratory data analysis
-- `05_data_cleaning.py`: Performing missing data identification and imputation
-- `06_data_analysis.py`: Performing more in-depth data analysis using rolling window, grouping method and more
-- `07_data_visualization.py`: Depicting data in various visualizations
+
+- `01_intro.ipynb`: Introduces `Series` and `DataFrame`, two core data structures of `pandas` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/01_intro.ipynb)
+- `02_load_and_save.ipynb`: Importing and exporting files/datasets [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/02_load_and_save.ipynb)
+- `03_data_manipulation.ipynb`: Indexing and slicing data, `loc` and `iloc` methods [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/03_data_manipulation.ipynb)
+- `04_EDA.ipynb`: General methods to perform exploratory data analysis [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/04_EDA.ipynb)
+- `05_data_cleaning.ipynb`: Performing missing data identification and imputation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/05_data_cleaning.ipynb)
+- `06_data_analysis.ipynb`: Performing more in-depth data analysis using rolling window, grouping method and more [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/06_data_analysis.ipynb)
+- `07_data_visualization.ipynb`: Depicting data in various visualizations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/07_data_visualization.ipynb)
 
 ## Dependencies
 

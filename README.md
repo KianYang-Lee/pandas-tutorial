@@ -5,6 +5,7 @@ Tutorial on using Pandas, a popular data analysis framework in Python, to perfor
 
 - [Repository Structure](#repository-structure)
 - [Dependencies](#dependencies)
+- [Disclaimer](#disclaimer)
 
 ## Repository Structure
 
@@ -56,3 +57,11 @@ Finally, execute the following to install the dependencies for this lab into you
 pip install -r requirements.txt
 ```
 
+## Disclaimer
+
+All the dataset used in this repository does not belong to the authors but rather are open-sourced datasets found online. Attached are the URLs for each and every dataset:
+
+* `ct.json` dataset [source](https://www.bmc.com/blogs/pandas-read-json-csv-files/)
+* `airlines.csv` dataset [source](http://www.principlesofeconometrics.com/excel.htm)
+* `Pokemon.csv` dataset [source](https://www.kaggle.com/abcsds/pokemon)
+* `Titanic.csv` dataset [source](https://github.com/pandas-dev/pandas/blob/master/doc/data/titanic.csv) 

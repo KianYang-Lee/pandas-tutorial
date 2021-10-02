@@ -4,6 +4,7 @@ Tutorial on using Pandas, a popular data analysis framework in Python, to perfor
 ## Contents
 
 - [Repository Structure](#repository-structure)
+- [Slide](#slide)
 - [Dependencies](#dependencies)
 - [Disclaimer](#disclaimer)
 
@@ -12,8 +13,8 @@ Tutorial on using Pandas, a popular data analysis framework in Python, to perfor
 This repository is structured as follow:
 
 ```
-contents/   : contains Python scripts for instructor's demonstration purposes during training session
-exercises/  : contains Python scripts with instructions for participants to practice
+contents/   : contains ipython notebooks for instructor's demonstration purposes during training session and practice sections for participants
+solutions/  : contains ipython notebooks with solutions for the practice sections
 ```
 
 Class contents are structured in such a way that core functionalities of `pandas` are exposed to participants in a step-by-step and functional manner. Following contains  short description of subject covered for each scripts:
@@ -27,7 +28,14 @@ Class contents are structured in such a way that core functionalities of `pandas
 - `06_data_analysis.ipynb`: Performing more in-depth data analysis using rolling window, grouping method and more [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/06_data_analysis.ipynb)
 - `07_data_visualization.ipynb`: Depicting data in various visualizations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KianYang-Lee/pandas-tutorial/blob/main/contents/07_data_visualization.ipynb)
 
+## Slide
+
+An introductory slide deck to `pandas` is available <a href='https://docs.google.com/presentation/d/1RQDsvwuNiETPH3iZ6YYGzZZBOICi0ySdYHIkjxiarMo/edit?usp=sharing'>here</a>.
+
 ## Dependencies
+
+A Google Colaboratory URL is embedded in the button beside each notebook. One click on it and you are ready to check out the contents.
+If you want to access the notebooks locally, follow the steps below. 
 
 Isolating each environment for different projects is the best practice. One of the way you can create virtual environment is by using Python's native `virtualenv` module. At this directory's root, execute the following to create a virtual environment:
 
